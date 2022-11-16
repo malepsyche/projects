@@ -201,11 +201,12 @@ int findCustomer(struct roomstructure *p)
           return 0;
 }
 
+//______________________________________________________________________________________
 
 int main()
 {
           int choice;
-          printf("NTU HOTEL ROOM RESERVATION PROGRAM:\n");
+          printf("HOTEL ROOM RESERVATION PROGRAM:\n");
           printf("1: listOccupiedRooms()\n");
           printf("2: assignRoom()\n");
           printf("3: removeRoom()\n");
